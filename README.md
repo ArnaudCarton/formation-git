@@ -1,4 +1,4 @@
-# formation-git
+# Formation Git
 
 Ceci est un  depot public utiliser pour presenter git en formation.
 
