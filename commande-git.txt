@@ -1,0 +1,26 @@
+Initialiser un projet git (créer un projet local) : 
+	git init 
+
+Pour afficher l'états du projet (voir les fichiers ajouter, modifié, supprimé, ect ...) :
+	git status
+
+Affiche l'historique du dépot avec le nom de l'utilisateur et date a la quelle un commit a était fait : 
+	git log
+
+Ajoute le ou les fichiers a la zone d'attente : 
+	git add nomdufichier (possibiliter d'en selectionné plusieurs)
+
+Ajoute le ou les fichiers de la zone d'attente dans le depot local : 
+	git commit -m "message"
+
+Modifie le message du dernier commit : 
+	git commit --amend -m "message"
+
+Liste les branch d'un projet : 
+	git branch ou git branch --list
+
+Pour créer une branch : 
+	git branch nomdufichier
+
+Pour changer de branch : 
+	git switch nomdelabranch ou git checkout nomdelabranch
